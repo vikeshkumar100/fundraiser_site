@@ -3,6 +3,7 @@ import Domaincard from '@/components/Cards/Domaincard'
 import Donatecard from '@/components/Cards/Donatecard'
 import Infocard from '@/components/Cards/Infocard'
 import React from 'react'
+import Marquee from "react-fast-marquee";
 
 const Home = () => {
   return (
@@ -47,6 +48,7 @@ const Home = () => {
               </div>            
             </div>
           </div>
+          {/* hero section end*/}
 
 
           <div className='w-[95%] bg-[rgb(205,255,87)] flex flex-col
@@ -60,6 +62,19 @@ const Home = () => {
               <Infocard image="/kidpic.jpg" title="Build Socially" content="Giving happiness to others is one of the most fulfilling things you can do in life"/>
             </div>
           </div>
+
+          {/* strips  */}
+          <div className='rotate-2 mt-28'>
+          <Marquee autoFill="true">
+            <h2 className='text-white bg-[rgb(6,78,59)] text-3xl md:text-6xl p-3  '>let's help each other *</h2> 
+          </Marquee>
+          </div>
+          <div className='-rotate-3 relative z-10 mb-28'>
+          <Marquee autoFill="true" direction='right'>
+            <h2 className='text-[rgb(6,78,59)] bg-[rgb(205,255,87)] text-3xl md:text-6xl p-3 z-10'>let's help each other *</h2> 
+          </Marquee>
+          </div>
+
 
           {/* accordian  */}
           <Accordian/>

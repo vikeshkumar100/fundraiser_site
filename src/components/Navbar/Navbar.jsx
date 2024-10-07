@@ -8,7 +8,7 @@ const Navbar = () => {
             <h1 className='text-green-700 text-xl md:text-2xl font-bold'>gocingo</h1>
           </div>
           <div>
-            <ul className='flex items-center justify-around gap-4 md:gap-14 lg:gap-24 font-bold'>
+            <ul className='flex items-center md:text-lg justify-around gap-4 md:gap-14 lg:gap-24 font-bold'>
               <li><NavLink to="/" className={({isActive})=>`${isActive ? "text-green-700" : "text-black"}`}>Home</NavLink></li>
               <li><NavLink to="other" className={({isActive})=>`${isActive ? "text-green-700" : "text-black"}`}>About</NavLink></li>
               <li><NavLink to="other" className={({isActive})=>`${isActive ? "text-green-700" : "text-black"}`}>Resources</NavLink></li>

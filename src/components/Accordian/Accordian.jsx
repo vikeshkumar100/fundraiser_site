@@ -7,7 +7,7 @@ import {
 
 const Accordian = () => {
     return (
-        <div className="w-[95vw] mx-auto p-6 bg-gray-100 rounded-lg">
+        <div className="w-[95vw] mx-auto p-6 bg-gray-100 rounded-lg mb-20">
           <h2 className="text-3xl font-bold text-center mb-2">Frequently asked questions</h2>
           <p className="text-gray-600 text-center mb-6">Everything you need to know</p>
           <Accordion type="single" collapsible className="w-full space-y-4">
