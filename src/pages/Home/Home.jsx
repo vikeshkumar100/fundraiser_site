@@ -55,9 +55,9 @@ const Home = () => {
               <h2>Fundraising on Gocingo takes just a few minutes</h2>
             </div>
             <div className='flex flex-col md:flex-row flex-wrap justify-around w-full'>
-              <Infocard image="./kidpic.jpg" title="Give Happiness" content="Giving happiness to others is one of the most fulfilling things you can do in life"/>
-              <Infocard image="./kidpic.jpg" title="Share Love" content="Giving happiness to others is one of the most fulfilling things you can do in life"/>
-              <Infocard image="./kidpic.jpg" title="Build Socially" content="Giving happiness to others is one of the most fulfilling things you can do in life"/>
+              <Infocard image="/kidpic.jpg" title="Give Happiness" content="Giving happiness to others is one of the most fulfilling things you can do in life"/>
+              <Infocard image="/kidpic.jpg" title="Share Love" content="Giving happiness to others is one of the most fulfilling things you can do in life"/>
+              <Infocard image="/kidpic.jpg" title="Build Socially" content="Giving happiness to others is one of the most fulfilling things you can do in life"/>
             </div>
           </div>
 
